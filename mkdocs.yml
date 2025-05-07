@@ -1,4 +1,4 @@
-site_name: NFDI4BioImage RDM Toolbox
+site_name: NFDI4BioImage_RDM_Toolbox
 site_url: !ENV READTHEDOCS_CANONICAL_URL
 nav:
   - Home: index.md
