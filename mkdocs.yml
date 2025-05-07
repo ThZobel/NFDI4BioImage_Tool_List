@@ -12,3 +12,8 @@ theme: readthedocs
 
 extra_javascript:
     - javascript/readthedocs.js
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition

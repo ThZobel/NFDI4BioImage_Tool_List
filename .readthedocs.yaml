@@ -21,7 +21,3 @@ mkdocs:
 python:
    install:
    - requirements: docs/requirements.txt
-markdown_extensions:
-  - markdown_include.include:
-      base_path: .
-  - admonition
