@@ -1,4 +1,4 @@
-site_name: NFDI
+site_name: NFDI4BioImage RDM Toolbox
 nav:
   - Home: index.md
   - Analysis Software: 01_Analysis Software.md
