@@ -11,10 +11,12 @@ nav:
   - Examples: 06_Examples.md
 theme:
    name: readthedocs #material
-   #logo: assets/NFDI4BI_logo.png
-  # favicon: assets/favicon.png
+#   logo: assets/NFDI4BI_logo.png
+#   favicon: assets/favicon.png
 extra_javascript:
     - javascript/readthedocs.js
 
 markdown_extensions:
-  - admonition
+ - markdown_include.include:
+     base_path: .
+ - admonition
