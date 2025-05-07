@@ -18,5 +18,3 @@ extra_javascript:
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
