@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: NFDI4BioImage Tool List
+nav:
+  - Home: index.md
+  - Analysis Software: 01_Analysis Software.md
+  - AI Tools: 02_AI Tools.md
+  - Research Data Management Platforms: 03_Research Data Management Platforms.md
+  - Research Data Management Tools: 04_Research Data Management Tools.md
+  - Computing Resources: 05_Computing Resources.md
+  - Examples: 06_Examples.md
+site_url: http://127.0.0.1:8000/Index/
+theme: readthedocs
+  name: material
+  logo: assets/NFDI4BI_logo.png
+  favicon: assets/favicon.png
+  palette:
+    scheme: default # slate
+    primary: red # teal
+    accent: indigo
+markdown_extensions:
+  - admonition
+  - pymdownx.details     # Oft zusammen mit admonition genutzt
+  - pymdownx.superfences # Verbessert Code-Blöcke, auch innerhalb von admonitions
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
