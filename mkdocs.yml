@@ -1,4 +1,5 @@
-site_name: NFDI
+site_name: NFDI4BioImage RDM Toolbox
+site_url: !ENV READTHEDOCS_CANONICAL_URL
 nav:
   - Home: index.md
   - Analysis Software: 01_Analysis Software.md
@@ -7,4 +8,13 @@ nav:
   - Research Data Management Tools: 04_Research Data Management Tools.md
   - Computing Resources: 05_Computing Resources.md
   - Examples: 06_Examples.md
-theme: readthedocs
+theme:
+    name: readthedocs
+
+extra_javascript:
+    - javascript/readthedocs.js
+    
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
