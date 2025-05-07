@@ -3,6 +3,7 @@ site_url: !ENV READTHEDOCS_CANONICAL_URL
 nav:
   - Home: index.md
   - Analysis Software: 01_Analysis Software.md
+    Fiji: Fiji.md
   - AI Tools: 02_AI Tools.md
   - Research Data Management Platforms: 03_Research Data Management Platforms.md
   - Research Data Management Tools: 04_Research Data Management Tools.md
@@ -10,10 +11,12 @@ nav:
   - Examples: 06_Examples.md
 theme:
    name: readthedocs #material
+   logo: assets/NFDI4BI_logo.png
+   favicon: assets/favicon.png
 extra_javascript:
     - javascript/readthedocs.js
 
-#markdown_extensions:
-# - markdown_include.include:
-#     base_path: .
-# - admonition
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
