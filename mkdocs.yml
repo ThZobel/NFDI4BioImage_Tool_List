@@ -8,8 +8,7 @@ nav:
   - Research Data Management Tools: 04_Research Data Management Tools.md
   - Computing Resources: 05_Computing Resources.md
   - Examples: 06_Examples.md
-theme:
-    name: readthedocs
+theme: readthedocs
 
 extra_javascript:
     - javascript/readthedocs.js
